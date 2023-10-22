@@ -31,6 +31,12 @@ int main(int argc, char **argv) {
   printf("Enter a number between 1 and %d\n", n);
 
   //TODO: place your code here
+     do {
+   printf ("Please enter a number for guess game");
+   scanf ("%d", &numGuesses);
+    if (numGuesses>number) {
+      printf ("Number is too high , Please try again");
+    }
 
   printf("Congratulations, you found it!  Number of guesses: %d\n", numGuesses);
   return 0;

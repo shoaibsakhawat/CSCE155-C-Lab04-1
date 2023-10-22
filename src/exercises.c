@@ -80,7 +80,6 @@ int main(int argc, char **argv) {
  for (int i = 2; i <=n; i+=2) {
   sumOfEvens +=i;
  }
-
   //8. Write a solution to the following variation of the FizzBuzz
   //   problem.  Print out integers 1 thru n, one to a line, except
   //   that if the integer is divisible by 7 print "Foo" instead.
