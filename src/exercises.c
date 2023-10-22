@@ -76,6 +76,10 @@ int main(int argc, char **argv) {
 
   //7. Compute the summation of even numbers 1 thru n and print
   //   the result; example (n=5): 2 + 4 = 6
+   int sumOfEvens = 0;
+ for (int i = 2; i <=n; i+=2) {
+  sumOfEvens +=i;
+ }
 
   //8. Write a solution to the following variation of the FizzBuzz
   //   problem.  Print out integers 1 thru n, one to a line, except
