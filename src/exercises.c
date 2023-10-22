@@ -1,6 +1,6 @@
 /**
- * Author(s):
- * Date:
+ * Author(s): shoaib sakhawat
+ * Date:22-10-2023
  *
  * This is a series of exercises to introduce loop
  * control structures.
@@ -40,6 +40,12 @@ int main(int argc, char **argv) {
 
   //3. Print numbers 1 thru n separated by a comma except for
   //   the last one; example: 1, 2, 3, 4, 5
+  for (int i = 1; i <= n; i++) {
+    if (i == n) {
+      printf ("%d\n",i);
+    } else {
+      printf ("%d", i);
+    }
 
   //4. Print squares of numbers 1 thru n separated by a comma
   //   except for the last one; example: 1, 4, 9, 16, 25
