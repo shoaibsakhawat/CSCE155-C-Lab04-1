@@ -37,6 +37,11 @@ int main(int argc, char **argv) {
     if (numGuesses>number) {
       printf ("Number is too high , Please try again");
     }
+        else if (numGuesses<number){ 
+      printf ("Number is too low , Please try again");
+    }
+  else 
+
 
   printf("Congratulations, you found it!  Number of guesses: %d\n", numGuesses);
   return 0;
