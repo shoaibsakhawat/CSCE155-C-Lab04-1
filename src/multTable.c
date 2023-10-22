@@ -1,6 +1,6 @@
 /**
- * Author: 
- * Date: 
+ * Author: shoaib sakhawat
+ * Date: 22-10-2023
  *
  * This program generates a multiplication table
  * of the size given as a command line argument.
@@ -22,6 +22,22 @@ int main(int argc, char **argv) {
   }
 
   //TODO: place your code here
+   for (int i = 0; i <= n; i++) {
+    for (int j = 0; j <= n; j++){
+     if (i == 0){
+      if (j == 0){
+        printf (" --- ");
+  } else {
+    printf ("%4d",j);
+  }
+     }else if (j == 0) {
+      printf ("%4d",i);
+     } else {
+      printf("%4d", i * j);
+     } 
+     }
+     printf ("\n");
+    }
 
   return 0;
 }

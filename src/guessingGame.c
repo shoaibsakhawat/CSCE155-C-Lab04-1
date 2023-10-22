@@ -31,18 +31,18 @@ int main(int argc, char **argv) {
   printf("Enter a number between 1 and %d\n", n);
 
   //TODO: place your code here
-     do {
+   do {
    printf ("Please enter a number for guess game");
    scanf ("%d", &numGuesses);
     if (numGuesses>number) {
       printf ("Number is too high , Please try again");
     }
-        else if (numGuesses<number){ 
+    else if (numGuesses<number){ 
       printf ("Number is too low , Please try again");
     }
   else 
-
-
-  printf("Congratulations, you found it!  Number of guesses: %d\n", numGuesses);
+  printf("Congratulations, you found it!  Number of guesses: %d\n", numGuesses); 
+   } 
+   while (numGuesses !=number);
   return 0;
 }
